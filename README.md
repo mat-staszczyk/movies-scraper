@@ -1,6 +1,6 @@
 # Movies scraper
 
-Simple web app which allows to get
+Simple web app which allows to get some data from IMDB movies base.
 
 
 
