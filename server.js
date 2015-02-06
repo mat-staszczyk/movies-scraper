@@ -8,7 +8,7 @@ app.get('/scrape', function(req, res){
 
   // The URL we will scrape from - in our example Anchorman 2.
 
-  url = 'http://www.imdb.com/title/tt1229340/';
+  url = 'http://www.imdb.com/title/tt0421054/';
 
   // The structure of our request call
   // The first parameter is our URL
