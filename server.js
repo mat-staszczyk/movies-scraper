@@ -23,9 +23,9 @@ app.get('/scrape', function(req, res){
             title = data.children().first().text();
 
             json.title = title;
-          })
+          });
         }
-      })
+      });
 
 }).listen('8081');
 
