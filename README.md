@@ -5,13 +5,13 @@ Simple web app which allows to get some data from IMDB movies base.
 
 All You need to do after cloning this repo is:
 
- download modules:
+ - download modules:
 `npm install`
 
-run app:
+- run app:
 `node server.js`
 
-browse address:
+- browse address:
 [http://localhost:8081/scrape/][]
 
 
