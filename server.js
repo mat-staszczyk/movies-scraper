@@ -18,17 +18,19 @@ app.get('/scrape', function(req, res){
           var json = { title : "", release : "", rating : ""};
 
           $('.header').filter(function () {
+              var data = $(this);
+              title = data.children().first().text();
 
-            var data = $(this);
-            title = data.children().first().text();
+              release = data.children().last().children().text();
 
-            json.title = title;
+              json.title = title;
+              json.release = release;
           });
         }
-      });
+    });
+});
 
-}).listen('8081');
-
+app.listen('8081');
 console.log('Magic happens on port 8081');
 
 exports = module.exports = app;
